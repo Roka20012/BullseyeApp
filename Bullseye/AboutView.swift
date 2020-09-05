@@ -17,8 +17,7 @@ struct AboutView: View {
             content
                 .font(Font.custom("Arial Rounded MT Bold", size: 30))
                 .foregroundColor(Color.black)
-                .padding(.bottom, 20)
-                .padding(.top, 20)
+                .padding([.top, .bottom], 20)
         }
     }
     
@@ -27,8 +26,7 @@ struct AboutView: View {
             content
                 .font(Font.custom("Arial Rounded MT Bold", size: 16))
                 .foregroundColor(Color.black)
-                .padding(.leading, 60)
-                .padding(.trailing, 60)
+                .padding([.leading, .trailing], 60)
                 .padding(.bottom, 20)
                 
         }
