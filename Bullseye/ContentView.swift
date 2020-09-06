@@ -63,7 +63,7 @@ struct ContentView: View {
             Spacer()
             // Target row
             HStack {
-                Text("Put the bullseye al cloas as you can to:").modifier(LabeStyle())
+                Text("Put the bullseye as close as you can to:").modifier(LabeStyle())
                     
                 Text("\(target)")
                     .modifier(ValueStyle())
